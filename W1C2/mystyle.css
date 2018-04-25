@@ -18,8 +18,7 @@
 			body{
 				background: #eadedb;
 				font-family: Helvetica, Open Sans, Arial, sans-serif;
-				max-width: 600px;
-    			height: 300px;
+				
     		}
 			p{
 				font-size: 14px;
@@ -30,6 +29,5 @@
 				margin: 20px; 0;
 				border-top: 1px solid black;
 				border-bottom: 1px solid black;
-				max-width: 600px;
-    			height: 300px;
+				
     		}	
