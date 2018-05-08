@@ -193,3 +193,7 @@ footer p {
   padding-right: 8px;
   padding-left: 3px;
 }
+
+#coffee_shop {
+  background-image: url("images/coworking.jpg");
+}
