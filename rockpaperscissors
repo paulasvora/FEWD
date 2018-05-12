@@ -1,0 +1,43 @@
+
+Do you choose rock, paper or scissors?
+
+
+define # of players: (player1, player2)
+
+define signs: (rock, paper, scissors)
+
+
+IF player1 input=rock AND player2 input=scissors
+THEN output player1="You win!!"
+output for player2="You lose, try again!"
+
+IF player1 input=rock AND player2 input=paper
+THEN output player2="You win!!"
+output for player1="You lose, try again!"
+
+IF player1 input=scissors AND player2 input=paper
+THEN output player1="You win!!"
+output for player2="You lose, try again!"
+
+IF player1 input:scissors AND player2 input=rock
+THEN output player2="You win!!"
+output for player2="You lose, try again!"
+
+IF player1 input:paper AND player2 input=scissors
+THEN output player2="You win!!"
+output for player1="You lose, try again!"
+
+IF player1 input=paper AND player2 input=rock
+THEN output player1="You win!!"
+output for player2="You lose, try again!"
+
+IF player1 input=player2 input THEN output="It's a tie!"
+
+
+if ( condition ) {
+    doSomething();
+} else if ( otherCondition ) {    
+    somethingElse();
+} else {   
+
+Add CommentClick to expand inline (7 lines)
