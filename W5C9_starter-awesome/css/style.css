@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/************************ CSS RESET **************************/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,4 +42,31 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/******************* ALL OTHER STYLE COMES AFTER THIS LINE *****************/
+
+
+body{
+	background:#eee;
+	color:#333;
+	font-family:arial;
+}
+input{
+	margin:10px;
+}
+.exercise{
+	background:white;
+	border:1px solid #ddd;
+	padding:20px;
+	max-width:400px;
+	margin:50px auto;
+}
+h1{
+	text-align:center;
+	font-size:44px;
+}
+h3{
+	font-size:22px;
+	padding:20px;
 }
